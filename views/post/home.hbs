@@ -1,0 +1,17 @@
+
+  <h1>Alley's Blog</h1>
+  <nav>
+    <a href="/post/new">Add Post</a>
+    <a href="/post/about">About</a>
+    <a href="/post/contacts">Contact</a>
+    <a href="/post/logout">Log Out</a>
+  </nav>
+{{#post}}
+  <h1>booo</h1>
+  <h3>{{title}}</h3>
+  <div>
+    <img src="{{pictureurl}}" alt="blog_picture">
+  </div>
+  <h3>{{content}}</h3>
+  <h3>{{excerpt}}</h3>
+{{/post}}
